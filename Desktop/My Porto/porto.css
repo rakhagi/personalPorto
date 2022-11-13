@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: #455256; */
+    max-width: 100vw;
+    z-index: 1;
+    /* border: solid red; */
+}
+body{
+    background-color: #455256;
+}
+h6,h5 {
+    color:aliceblue
+}
+.marg-2 {
+    margin: 2px;
+}
+
+/* NAVIGATION BAR SECTION */
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+}
+.navbrand {
+    background-color: transparent;
+font-family: 'Eczar',Roboto;
+font-style: normal;
+font-weight: 800;
+font-size: 4vmax;
+line-height: 71px;
+color: #FFFFFF;
+margin-left: 3%;
+cursor: pointer;
+}
+#navigation {
+    position: relative;
+    display: flex;
+    font-size: 20px;
+}
+.hamburgermenu {
+    display: none;
+}
+.navlink {
+    text-decoration: none;
+}
+.navlink:hover {
+    background-color: #2ab0d8;
+}
+#navigation ul li{
+    background-color: transparent;
+    display: inline-block;
+    margin-inline: 20px;
+    font-family: 'Eczar';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 44px;
+color: #FFFFFF;
+}
+
+
+.lang{                       /* Language Section */
+position: relative;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-right: 15px;
+margin-left: 15px;
+margin-top: 9px;
+margin-bottom: 5px;
+width: 50px;
+height: 25px;
+background: rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+}
+
+
+/* THE HOME SECTION */
+
+#homesection {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bghome.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.raka {
+    position: relative;
+    top: 20%;
+    left: 5%;
+    width: 80%;
+}
+.raka h6{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 1.4vmax;
+line-height: 4.5vmax;
+color: aliceblue;
+}
+.raka h1{
+    font-family: 'Eczar';
+font-style: normal;
+font-weight: 600;
+font-size: 4.2vmax;
+line-height: 4.5vmax;
+margin-top: -1.2vmax;
+color: aliceblue;
+}
+.fwb{
+    font-weight: bold   ;
+}
+.desc {
+    position: relative;
+    z-index: 1;
+    color: aliceblue;
+    width: 32vmax;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 1.2vmax;
+line-height: 120%;
+left: 5%;
+top: 38%;
+}
+
+.icon{
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    margin: 6px;
+}
+
+/* TENTANG SAYA SECTION */
+
+#aboutMe {
+    /* border: solid red; */
+    position: relative;
+    width: 100%;
+    height: 777px;
+    background-color: #455256;
+    margin-top: 0%;
+    background-image: url(img/aksen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ttgsaya {
+    position: absolute;
+    top: 25vh;
+    left: 32vh;
+    font-family: 'Eczar';
+font-style: normal;
+font-weight: 600;
+font-size: 8vh;
+line-height: 1vh;
+color: aliceblue;
+}
+
+.wrapper-foto{
+    display: flex;
+position: absolute;
+top: 44vh;
+}
+.pfoto{
+    margin-inline: 10vh;
+}
+.ico-wrap{
+
+    height: 240px;
+    margin-top: -8vh;
+}
+.ico{
+    margin-block: 7vh;
+    text-align: right;
+}
+.ico h5 {
+    font-weight: 800;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.ico h6 {
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 0.8 em;
+}
+
+.vert-spacer {
+    position: absolute;
+    height: 60vh;
+    border-right-style: solid ;
+    top: 36vh;
+    left: 34vw;
+    color: aliceblue;
+}
+.content-wrap {
+position: absolute;
+top: 40vh;
+left: 37vw;
+    width: 44vw;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 1.1vw;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+.content-abt {
+    margin: 20px;
+    line-height: 1.4vw;
+}
+.btn-res {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-sizing: border-box;
+    width: 15vw;
+    text-align: center;
+    color: aliceblue;
+    margin-left:20px ;
+    margin-top: 27px;
+    font-size: 0.9vw;
+    font-weight: 600;
+    cursor: pointer;
+height: 7vh;
+border: 1px solid #10C6FF;
+background-color: transparent;
+}       
+
+
+/* PROJECT SECTION  */
+
+
+/* #project-sect {
+    background-color: #455256;
+    width: 100%;
+    height: 700px;
+
+} */

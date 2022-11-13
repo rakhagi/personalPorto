@@ -1,0 +1,47 @@
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        background: rgba(16, 41, 48, 0.2);
+
+    }
+    .hamburgermenu {
+        display: block;
+        margin: 20px;
+    }
+    #navigation{
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 70px;
+        text-align: center;
+        background: rgba(16, 41, 48, 1);
+    }
+    #navigation ul li {
+        display: block;
+    }
+
+    #homesection {
+        background-position: -450px;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    #homesection {
+        background-position: -780px;
+
+    }
+    .icon {
+            width: 25px;
+            height: 25px;
+            margin-inline: 3px;
+            margin-top: -100px;
+    }
+    .desc {
+        font-size: 1.3vmax;
+        margin-top: 20%;
+    }
+}
